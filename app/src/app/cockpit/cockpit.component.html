@@ -1,0 +1,12 @@
+<div class="row">
+    <div class="col-xs-12">
+        <h1>This is udemy section 5</h1> <br>
+        <br>
+        <label for=""><b>Server Name</b></label>
+        <input type="text" name="server" class="form-control marginBottom" [(ngModel)]="newServerName">
+        <label for=""><b>Server Content</b></label>
+        <input type="text" name="serverContent" class="form-control marginBottom" [(ngModel)]="newServerContent">
+        <button (click)="onAddServer()" class="btn btn-primary marginRight">Server Name</button>
+        <button (click)="onAddBlueprint()" class="btn btn-primary">Server Content</button>
+    </div>
+</div>
